@@ -1,0 +1,46 @@
+body {
+  font-family: "Poppins";
+}
+
+section {
+  padding-top: 100px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.hover-ani {
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+  }
+  
+  .hover-ani::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    border-radius: 30px;
+    background-color: #ff9500;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-ani:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.red-hat {
+    font-family: "Red Hat Mono";
+}
+
+.name {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 60px;
+}
