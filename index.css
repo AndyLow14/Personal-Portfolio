@@ -7,8 +7,11 @@ section {
   padding-top: 100px;
 }
 
-.bg-dark-gray {
+.card {
   background-color: #121212;
+  border-color: white;
+  border-width: 3px;
+  border-radius: 0px;
 }
 
 .navbar-brand {
