@@ -1,9 +1,14 @@
 body {
   font-family: "Poppins";
+  padding-top: 100px;
 }
 
 section {
   padding-top: 100px;
+}
+
+.bg-dark-gray {
+  background-color: #121212;
 }
 
 .navbar-brand {
@@ -42,5 +47,10 @@ section {
 .name {
     font-weight: 800;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 50px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #9e9e9e;
 }
