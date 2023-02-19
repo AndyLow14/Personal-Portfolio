@@ -8,6 +8,15 @@
   --black: #212529;
 }
 
+@font-face {
+  font-family: Cozette;
+  src: url(./fonts/CozetteVector.ttf);
+}
+
+.cozette {
+  font-family: Cozette;
+}
+
 body {
   font-family: "Poppins";
   padding-top: 100px;
@@ -106,4 +115,16 @@ section {
 
 .bg-pink {
   background-color: var(--pink);
+}
+
+form {
+  font-family: Cozette;
+}
+
+.square {
+  border-radius: 0px;
+}
+
+.label {
+  font-size: x-large;
 }

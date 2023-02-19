@@ -261,14 +261,72 @@
       </section>
       <section id="contact">
         <h1 class="text-center">CONTACT</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
-          mollitia error ex, minus eius veniam et numquam, magnam, officia
-          voluptatem voluptatum animi. Commodi modi aperiam eos velit
-          perferendis eveniet unde impedit debitis sunt laborum, inventore iste
-          esse. Adipisci libero at voluptates perspiciatis eveniet illum
-          doloremque nihil omnis, blanditiis aliquid corrupti.
-        </p>
+        <form
+          class="my-4"
+          action="https://formspree.io/f/mvonakjq"
+          method="POST"
+        >
+          <div class="vstack gap-4">
+            <div class="row gy-md-0 gy-3 gx-4 justify-content-center">
+              <div class="col-md-1 my-md-auto">
+                <label for="Name" class="label">From</label>
+              </div>
+              <div class="col-md-4">
+                <input
+                  type="text"
+                  class="form-control square"
+                  id="Name"
+                  name="Name"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="col-md-4">
+                <input
+                  type="text"
+                  class="form-control square"
+                  id="Email"
+                  name="Email"
+                  placeholder="Email"
+                />
+              </div>
+            </div>
+            <div class="row gy-md-0 gy-3 justify-content-center">
+              <div class="col-md-1 my-md-auto">
+                <label for="Name" class="label">Subject</label>
+              </div>
+              <div class="col-md-8">
+                <input
+                  type="text"
+                  class="form-control square"
+                  id="Subject"
+                  name="Subject"
+                  placeholder="e.g. Job Opportunity Available..."
+                />
+              </div>
+            </div>
+            <div class="row gy-md-0 gy-3 justify-content-center">
+              <div class="col-md-1 my-md-auto">
+                <label for="Name" class="label">Content</label>
+              </div>
+              <div class="col-md-8">
+                <textarea
+                  type="text"
+                  class="form-control square"
+                  id="Content"
+                  name="Content"
+                  rows="5"
+                  placeholder="..."
+                ></textarea>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-1"></div>
+              <div class="col-md-8">
+                <button type="submit" class="btn btn-primary square">Submit</button>
+              </div>
+            </div>
+          </div>
+        </form>
       </section>
     </main>
     <!-- Bootstrap JavaScript -->
