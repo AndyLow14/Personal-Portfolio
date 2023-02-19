@@ -1,3 +1,13 @@
+:root {
+  --orange: #faa356;
+  --purple: #8e57f7;
+  --red: #cf6679;
+  --blue: #57acdc;
+  --green: #60c689;
+  --pink: #ef66b6;
+  --black: #212529;
+}
+
 body {
   font-family: "Poppins";
   padding-top: 100px;
@@ -56,4 +66,44 @@ section {
 .card-text {
   font-size: 14px;
   color: #9e9e9e;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #121212;
+  height: 300px;
+  border: solid var(--black);
+  transition: all .6s ease;
+}
+
+.box:hover {
+  box-shadow: inset 0px 0px 1000px 300px rgba(0, 0, 0, .6);
+  color: white;
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.bg-purple {
+  background-color: var(--purple);
+}
+
+.bg-red {
+  background-color: var(--red);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.bg-pink {
+  background-color: var(--pink);
 }
