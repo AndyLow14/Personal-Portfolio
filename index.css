@@ -34,42 +34,42 @@ section {
 }
 
 .navbar-brand {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .hover-ani {
-    display: inline-block;
-    position: relative;
-    font-size: 18px;
-  }
-  
-  .hover-ani::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 3px;
-    bottom: 0;
-    left: 0;
-    border-radius: 30px;
-    background-color: #ff9500;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
-  
-  .hover-ani:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
+  display: inline-block;
+  position: relative;
+  font-size: 18px;
+}
+
+.hover-ani::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  border-radius: 30px;
+  background-color: #ff9500;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-ani:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 
 .red-hat {
-    font-family: "Red Hat Mono";
+  font-family: "Red Hat Mono";
 }
 
 .name {
-    font-weight: 800;
-    font-size: 56px;
-    line-height: 50px;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 50px;
 }
 
 .card-text {
@@ -82,15 +82,29 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: "Anton";
   color: #121212;
   height: 300px;
   border: solid var(--black);
-  transition: all .6s ease;
+  transition: all 0.6s ease;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.box {
+  font-size: 4rem;
 }
 
 .box:hover {
-  box-shadow: inset 0px 0px 1000px 300px rgba(0, 0, 0, .6);
+  box-shadow: inset 0px 0px 1000px 300px rgba(0, 0, 0, 0.6);
   color: white;
+}
+
+@media (max-width: 992px) {
+  .box {
+    height: 200px;
+    font-size: 3rem;
+  }
 }
 
 .bg-black-c {
@@ -136,7 +150,7 @@ form {
   border-radius: 100px;
   align-items: center;
   justify-content: center;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .icon {
