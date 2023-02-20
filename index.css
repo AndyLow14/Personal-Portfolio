@@ -33,6 +33,14 @@ section {
   align-items: center;
 }
 
+.intro {
+  padding-left: 80px;
+}
+
+.gif {
+  width: 250px;
+}
+
 .card {
   background-color: #121212;
   border-color: white;
@@ -115,6 +123,13 @@ section {
     height: 200px;
     font-size: 3rem;
   }
+  .gif {
+    width: 200px;
+  }
+  .intro {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -123,6 +138,19 @@ section {
   }
   .box {
     font-size: 2.5rem;
+  }
+  .gif {
+    width: 160px;
+  }
+  .intro {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .gif {
+    width: 110px;
   }
 }
 
