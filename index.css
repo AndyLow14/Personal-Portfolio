@@ -25,7 +25,6 @@ section {
   padding-top: 100px;
 }
 
-
 .intro {
   padding-left: 80px;
 }
@@ -72,6 +71,10 @@ section {
 
 .red-hat {
   font-family: "Red Hat Mono";
+}
+
+.anton {
+  font-family: "Anton";
 }
 
 .name {
@@ -145,6 +148,22 @@ section {
   .gif {
     width: 110px;
   }
+}
+
+.modal-img {
+  display: block;
+  width: 100%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.modal-img-sm {
+  display: block;
+  width: 50%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bg-black-c {
