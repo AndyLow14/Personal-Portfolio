@@ -19,11 +19,18 @@
 
 body {
   font-family: "Poppins";
-  padding-top: 100px;
 }
 
 section {
   padding-top: 100px;
+}
+
+.home {
+  display: flex;
+  height: 100vh;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  align-items: center;
 }
 
 .card {
@@ -87,8 +94,7 @@ section {
   height: 300px;
   border: solid var(--black);
   transition: all 0.6s ease;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
 }
 
 .box {
@@ -101,9 +107,22 @@ section {
 }
 
 @media (max-width: 992px) {
+  .home {
+    justify-content: center;
+    text-align: center;
+  }
   .box {
     height: 200px;
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding-bottom: 50px;
+  }
+  .box {
+    font-size: 2.5rem;
   }
 }
 
