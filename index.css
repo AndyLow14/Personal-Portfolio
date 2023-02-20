@@ -225,6 +225,10 @@ form {
   background-color: var(--orange);
 }
 
+.play-icon:hover {
+  background-color: var(--green);
+}
+
 .linkedin-icon:hover {
   background-color: var(--blue);
 }
