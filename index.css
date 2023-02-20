@@ -93,6 +93,10 @@ section {
   color: white;
 }
 
+.bg-black-c {
+  background-color: #121212;
+}
+
 .bg-orange {
   background-color: var(--orange);
 }
@@ -125,6 +129,33 @@ form {
   border-radius: 0px;
 }
 
+.circle {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  transition: all .5s ease;
+}
+
+.icon {
+  height: 50%;
+  width: 50%;
+}
+
 .label {
-  font-size: x-large;
+  font-size: large;
+}
+
+.git-icon:hover {
+  background-color: var(--orange);
+}
+
+.linkedin-icon:hover {
+  background-color: var(--blue);
+}
+
+.email-icon:hover {
+  background-color: var(--red);
 }
