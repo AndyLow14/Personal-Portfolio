@@ -229,6 +229,14 @@ form {
   background-color: var(--green);
 }
 
+.yt-icon:hover {
+  background-color: var(--red);
+}
+
+.ptf-icon:hover {
+  background-color: var(--pink);
+}
+
 .linkedin-icon:hover {
   background-color: var(--blue);
 }
